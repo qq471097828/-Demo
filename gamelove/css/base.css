@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*初始化设置*/
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, table, input, dt, dd, p, form, fieldset, legend, img, button, textarea {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input, button, select {
+    vertical-align: middle;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    /*vertical-align: middle;*/
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 16px/150%  "Microsoft YaHei";
+    color: #fff;
+    /*background: #fff;*/
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #c81623 !important;
+}
+
+/*公共类*/
+/*.w {*/
+    /*width: 1260px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*site-nav部分设置*/
